@@ -11,5 +11,6 @@ using Test
     @test f(42.0,-21) ≈ 21.0
 
     # 3x + 2y
-    @test f2(2,-3) == 0     
+    @test f2(2,-3) == 0
+    @test f2(-3,2) == -5
 end
