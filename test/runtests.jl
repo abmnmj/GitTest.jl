@@ -2,5 +2,7 @@ using GitTest
 using Test
 
 @testset "GitTest.jl" begin
-    # Write your own tests here.
+    # 2x + y
+    @test f(2,1) == 7
+    @test f(4,3) == 17
 end
